@@ -1,0 +1,142 @@
+.header{
+	font-family: 'Work Sans', sans-serif;
+}
+
+body{
+	background-image: url("../images/background.png");
+	color: #0E2C66;
+	margin: 8px;
+}
+
+h1{
+	text-transform:uppercase;
+	font-size: 40px;
+	letter-spacing: 15px;
+	text-align: center;
+	margin: 43px 0 0 30px;
+	float: left;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	padding: 0;
+	text-decoration: none;
+	display: inline;
+}
+
+#container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#header{
+	width: 1000px;
+	height: 140px;
+	margin: 0 auto;
+	background-color: #eee;
+	border: 2px solid #000;
+}
+
+#logo{
+	height: 130px;
+	float: left;
+	margin: 5px;
+}
+
+#title{
+	float: left;
+	margin-left: 60px;
+	margin-top: 22px;
+	font-size: 40px;
+}
+
+#nav{
+	float: right;
+	letter-spacing: 0px;
+	font-size: 14px;
+}
+
+
+#nav a.current{
+	color: #fff;
+	background-image: url("../images/background.png");	
+	text-align: center;
+}
+
+#nav li{
+	background-color: #ccc;
+	width: 154px;
+    text-align: center;
+	float: left;
+	margin: 18px 9px 6px 0;
+	border: 1px solid #000;
+}
+
+#nav li.current{
+	background-image: url("../images/background.png");	
+}
+
+#nav a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+#nav a:hover{
+	color: #fff;
+}
+
+#nav li:hover{
+	background-image: url("../images/background.png");
+}
+
+#content{
+	margin: 8px auto 8px auto;
+	width: 1000px;
+	padding: 0;
+	background-color: #eee;
+	border: 2px solid #000;
+}
+
+#footer{
+	width: 1000px;
+	height: 70px;
+	background-color: #eee;
+	margin: 0 auto;
+	border: 2px solid #000;
+}
+
+#address{
+	width: 100px;
+	margin: 10px 0 0 10px;
+	float: left;
+	
+}
+
+#copyright{
+	height:25px;
+	width: 750px;
+	margin-top: 26px;
+	text-align: center;
+	float: right;
+}
+
+#facebook img{
+	height: 50px;
+	width: 50px;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+#linkedin img{ 
+	height: 50px;
+	width: 50px;
+	float: right;
+	margin: 10px 10px 0 0;
+}

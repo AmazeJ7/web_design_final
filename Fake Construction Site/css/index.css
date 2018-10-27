@@ -1,0 +1,31 @@
+.box{
+	height: 245px;
+	width: 328px;
+	float: left;
+	border-right: 2px solid #000;
+	margin-left: 4px;
+}
+
+p{
+	padding: 10px;
+}
+
+h2{
+	font-size: 20px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#content{
+	height: 700px;
+}
+
+#bigpic{
+	width: 996px;
+	border: 2px solid #000;
+	border-bottom: 4px solid #000;
+}
+
+#rightbox{
+	border: 0;
+}
